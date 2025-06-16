@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "718337e2d2e65cd5c25c4b72a584026a",
+const RESOURCES = {"flutter_bootstrap.js": "be20a5d6058611692aae4511214bce87",
 "version.json": "009c9e65172e010890f7f65fde438006",
 "index.html": "eed51d19e51714a3962585159e8b4b77",
 "/": "eed51d19e51714a3962585159e8b4b77",
@@ -27,7 +27,7 @@ const RESOURCES = {"flutter_bootstrap.js": "718337e2d2e65cd5c25c4b72a584026a",
 "assets/AssetManifest.bin": "1009dfcbf09f03c845f1a8e52ec651b9",
 "assets/fonts/MaterialIcons-Regular.otf": "70ca4475e1dcc0a2604413493b3221f2",
 "assets/assets/images/profile.jpeg": "2c70b3014448c6feb5b8a105b7781a24",
-"assets/assets/Ameen_Alavi.pdf": "a3c7599db1b7c32402672f3319bdadfd",
+"assets/assets/Ameen_Alavi.pdf": "b973647f43451cd9aa1e2483f311c982",
 "canvaskit/skwasm.js": "ea559890a088fe28b4ddf70e17e60052",
 "canvaskit/skwasm.js.symbols": "9fe690d47b904d72c7d020bd303adf16",
 "canvaskit/canvaskit.js.symbols": "27361387bc24144b46a745f1afe92b50",
