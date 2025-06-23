@@ -326,7 +326,7 @@ class FooterWidget extends StatelessWidget {
                 color: textColor,
                 tooltip: 'LinkedIn',
                 onPressed: () {
-                  launchUrl(Uri.parse('https://linkedin.com/in/Ameen-Alavi'));
+                  launchUrl(Uri.parse('https://linkedin.com/in/ameen-alavi'));
                 },
               ),
             ],

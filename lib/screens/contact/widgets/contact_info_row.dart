@@ -11,6 +11,7 @@ class ContactInfoRow extends StatelessWidget {
   final IconData icon;
   final String text;
   final Color iconColor;
+  final double iconSize;
 
   /// Creates a [ContactInfoRow].
   ///
@@ -20,13 +21,14 @@ class ContactInfoRow extends StatelessWidget {
     required this.icon,
     required this.text,
     required this.iconColor,
+    required this.iconSize,
   });
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Icon(icon, color: iconColor),
+        Icon(icon, color: iconColor, size: iconSize),
         const SizedBox(width: 8),
         SelectableText(text, style: Theme.of(context).textTheme.bodyLarge),
       ],

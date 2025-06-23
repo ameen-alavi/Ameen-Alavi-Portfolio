@@ -24,24 +24,31 @@ class ContactPage extends StatelessWidget {
           const SizedBox(height: 24),
           ContactInfoRow(
             icon: FontAwesomeIcons.phone,
+            iconSize: 16,
             text: '+971 58 244 2741',
             iconColor: iconColor,
           ),
           const SizedBox(height: 16),
           ContactInfoRow(
             icon: Icons.email,
+            iconSize: 16,
+
             text: 'ameenalavi30@gmail.com',
             iconColor: iconColor,
           ),
           const SizedBox(height: 16),
           ContactInfoRow(
             icon: FontAwesomeIcons.linkedin,
-            text: 'linkedin.com/in/Ameen-Alavi',
+            iconSize: 16,
+
+            text: 'linkedin.com/in/ameen-alavi',
             iconColor: iconColor,
           ),
           const SizedBox(height: 16),
           ContactInfoRow(
             icon: FontAwesomeIcons.github,
+            iconSize: 16,
+
             text: 'github.com/ameen-77',
             iconColor: iconColor,
           ),

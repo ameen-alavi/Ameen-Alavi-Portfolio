@@ -63,10 +63,10 @@ class ResumePage extends StatelessWidget {
                   label: 'View Resume',
                   onPressed: () async {
                     if (kIsWeb) {
-                      openPdfInNewTab('assets/Ameen_Alavi.pdf');
+                      openPdfInNewTab('assets/Ameen_Alavi_Resume.pdf');
                     } else {
                       final url =
-                          'https://ameen-77.github.io/Ameen-Alavi-Portfolio/assets/Ameen_Alavi.pdf';
+                          'https://ameen-77.github.io/Ameen-Alavi-Portfolio/assets/Ameen_Alavi_Resume.pdf';
                       if (await canLaunchUrl(Uri.parse(url))) {
                         await launchUrl(
                           Uri.parse(url),
@@ -90,10 +90,13 @@ class ResumePage extends StatelessWidget {
                   label: 'Download Resume',
                   onPressed: () async {
                     if (kIsWeb) {
-                      downloadPdf('assets/Ameen_Alavi.pdf', 'Ameen_Alavi.pdf');
+                      downloadPdf(
+                        'assets/Ameen_Alavi_Resume.pdf',
+                        'Ameen_Alavi_Resume.pdf',
+                      );
                     } else {
                       final url =
-                          'https://ameen-77.github.io/Ameen-Alavi-Portfolio/assets/Ameen_Alavi.pdf';
+                          'https://ameen-77.github.io/Ameen-Alavi-Portfolio/assets/Ameen_Alavi_Resume.pdf';
                       if (await canLaunchUrl(Uri.parse(url))) {
                         await launchUrl(
                           Uri.parse(url),

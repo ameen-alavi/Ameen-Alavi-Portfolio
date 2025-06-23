@@ -21,7 +21,7 @@ class SkillsPage extends StatelessWidget {
       {'label': 'HTML', 'icon': FontAwesomeIcons.html5},
       {'label': 'CSS', 'icon': FontAwesomeIcons.css3},
       {'label': 'Responsive UI', 'icon': FontAwesomeIcons.tabletScreenButton},
-      {'label': 'Figma', 'icon': FontAwesomeIcons.figma},
+      {'label': 'Provider', 'icon': FontAwesomeIcons.box},
     ];
     final backend = [
       {'label': 'Python (Django)', 'icon': FontAwesomeIcons.python},
@@ -41,7 +41,6 @@ class SkillsPage extends StatelessWidget {
       {'label': 'Android Studio', 'icon': FontAwesomeIcons.android},
       {'label': 'Xcode', 'icon': FontAwesomeIcons.apple},
       {'label': 'State Management', 'icon': FontAwesomeIcons.cubes},
-      {'label': 'Provider', 'icon': FontAwesomeIcons.box},
     ];
     return SingleChildScrollView(
       padding: EdgeInsets.all(isMobile ? 16 : 24),
