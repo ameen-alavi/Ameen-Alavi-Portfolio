@@ -25,7 +25,7 @@ class ContactPage extends StatelessWidget {
           ContactInfoRow(
             icon: FontAwesomeIcons.phone,
             iconSize: 16,
-            text: '+971 58 244 2741',
+            text: '+91 735 624 5030',
             iconColor: iconColor,
           ),
           const SizedBox(height: 16),
