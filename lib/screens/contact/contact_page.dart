@@ -49,7 +49,7 @@ class ContactPage extends StatelessWidget {
             icon: FontAwesomeIcons.github,
             iconSize: 16,
 
-            text: 'github.com/ameen-77',
+            text: 'github.com/ameen-alavi',
             iconColor: iconColor,
           ),
         ],
