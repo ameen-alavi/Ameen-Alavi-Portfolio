@@ -9,13 +9,21 @@ import 'dart:html' as html;
 
 /// Opens a PDF in a new browser tab.
 void openPdfInNewTab(String url) {
-  html.window.open(url, '_blank');
+  final origin = html.window.location.origin;
+  final segments = html.window.location.pathname!.split('/');
+  final repoSegment = segments.length > 1 && segments[1].isNotEmpty ? '/${segments[1]}' : '';
+  final resolved = '$origin$repoSegment/$url'.replaceAll('//', '/').replaceFirst('https:/', 'https://');
+  html.window.open(resolved, '_blank');
 }
 
 /// Triggers a download of the PDF file in the browser.
 void downloadPdf(String url, String filename) {
   // ignore: unused_local_variable
-  final anchor = html.AnchorElement(href: url)
+  final origin = html.window.location.origin;
+  final segments = html.window.location.pathname!.split('/');
+  final repoSegment = segments.length > 1 && segments[1].isNotEmpty ? '/${segments[1]}' : '';
+  final resolved = '$origin$repoSegment/$url'.replaceAll('//', '/').replaceFirst('https:/', 'https://');
+  final anchor = html.AnchorElement(href: resolved)
     ..setAttribute('download', filename)
     ..click();
 }
