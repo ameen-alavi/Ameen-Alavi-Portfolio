@@ -79489,7 +79489,7 @@ $S:486}
 A.a9_.prototype={
 $0(){var s=0,r=A.O(t.H),q
 var $async$$0=A.K(function(a,b){if(a===1)return A.L(b,r)
-while(true)switch(s){case 0:q=window.open("assets/Ameen_Alavi_Resume1.pdf","_blank")
+while(true)switch(s){case 0:q=window.open("assets/Ameen_Alavi_Resume.pdf","_blank")
 A.aGa(q)
 return A.M(null,r)}})
 return A.N($async$$0,r)},
@@ -79498,8 +79498,8 @@ A.a90.prototype={
 $0(){var s=0,r=A.O(t.H),q
 var $async$$0=A.K(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:q=document.createElement("a")
-q.href="assets/Ameen_Alavi_Resume1.pdf"
-q.setAttribute("download","Ameen_Alavi_Resume1.pdf")
+q.href="assets/Ameen_Alavi_Resume.pdf"
+q.setAttribute("download","Ameen_Alavi_Resume.pdf")
 q.click()
 return A.M(null,r)}})
 return A.N($async$$0,r)},
