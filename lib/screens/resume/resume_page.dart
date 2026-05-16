@@ -66,7 +66,7 @@ class ResumePage extends StatelessWidget {
                       openPdfInNewTab('assets/Ameen_Alavi_Resume.pdf');
                     } else {
                       final url =
-                          'https://ameen-77.github.io/Ameen-Alavi-Portfolio/assets/Ameen_Alavi_Resume.pdf';
+                          'https://ameen-alavi.github.io/Ameen-Alavi-Portfolio/assets/Ameen_Alavi_Resume.pdf';
                       if (await canLaunchUrl(Uri.parse(url))) {
                         await launchUrl(
                           Uri.parse(url),
@@ -96,7 +96,7 @@ class ResumePage extends StatelessWidget {
                       );
                     } else {
                       final url =
-                          'https://ameen-77.github.io/Ameen-Alavi-Portfolio/assets/Ameen_Alavi_Resume.pdf';
+                          'https://ameen-alavi.github.io/Ameen-Alavi-Portfolio/assets/Ameen_Alavi_Resume.pdf';
                       if (await canLaunchUrl(Uri.parse(url))) {
                         await launchUrl(
                           Uri.parse(url),

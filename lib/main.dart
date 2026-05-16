@@ -1,5 +1,4 @@
 /// main.dart
-/// Entry point for the Ameen Alavi Portfolio Flutter app.
 /// Sets up theming, routing, and the main tab navigation.
 library;
 
@@ -318,7 +317,7 @@ class FooterWidget extends StatelessWidget {
                 color: textColor,
                 tooltip: 'GitHub',
                 onPressed: () {
-                  launchUrl(Uri.parse('https://github.com/ameen-77'));
+                  launchUrl(Uri.parse('https://github.com/ameen-alavi'));
                 },
               ),
               IconButton(

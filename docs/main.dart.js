@@ -79413,7 +79413,7 @@ p=A.dy("\xa9 2025 Ameen Alavi. All rights reserved.",n,n,p==null?n:p.cT(l),B.cs)
 o=A.X(a).ok.Q
 return A.vV(A.jN(A.b([new A.H3(1,s,n),B.h8,q,B.MC,p,B.Mz,A.dy("Built with Flutter",n,n,o==null?n:o.cT(l.pj(0.7)),B.cs)],r),B.at,B.al,B.c1),B.x,m.fx,n,n,n,n,B.CB,n)}}
 A.a0F.prototype={
-$0(){A.amP(A.id("https://github.com/ameen-77",0,null))},
+$0(){A.amP(A.id("https://github.com/ameen-alavi",0,null))},
 $S:0}
 A.a0G.prototype={
 $0(){A.amP(A.id("https://linkedin.com/in/ameen-alavi",0,null))},
@@ -79441,7 +79441,7 @@ return A.Wz(A.b([A.ad9(s.c,"",s.e,s.d)],t.u6),!0,!1,s.f,B.eZ,!1,!0,1)}}
 A.Gp.prototype={
 N(a){var s=null,r=A.bM(a,s,t.w).w,q=A.X(a).ax.b
 r=r.a.a<600?16:24
-return new A.d1(new A.aT(r,r,r,r),A.jN(A.b([A.dy("Contact Me",s,s,A.X(a).ok.d,s),B.Mx,new A.no(B.Dz,"+971 58 244 2741",q,16,s),B.jT,new A.no(B.DL,"ameenalavi30@gmail.com",q,16,s),B.jT,new A.no(B.m7,"linkedin.com/in/ameen-alavi",q,16,s),B.jT,new A.no(B.m8,"github.com/ameen-77",q,16,s)],t.E),B.bg,B.al,B.b7),s)}}
+return new A.d1(new A.aT(r,r,r,r),A.jN(A.b([A.dy("Contact Me",s,s,A.X(a).ok.d,s),B.Mx,new A.no(B.Dz,"+91 735 624 5030",q,16,s),B.jT,new A.no(B.DL,"ameenalavi30@gmail.com",q,16,s),B.jT,new A.no(B.m7,"linkedin.com/in/ameen-alavi",q,16,s),B.jT,new A.no(B.m8,"github.com/ameen-alavi",q,16,s)],t.E),B.bg,B.al,B.b7),s)}}
 A.no.prototype={
 N(a){var s=this
 return A.Ks(A.b([A.qU(s.c,s.e,null,s.f),B.Mw,new A.zl(s.d,A.X(a).ok.y,null)],t.E),B.at,B.al,B.b7)}}
